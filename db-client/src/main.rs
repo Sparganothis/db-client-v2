@@ -1,3 +1,3 @@
-fn main() {
-    println!("Hello, world!");
-}
+mod common;
+mod model;
+mod query;

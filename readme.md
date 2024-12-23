@@ -1,0 +1,7 @@
+- install git for windows, docker desltop for windows
+- install openssl from https://slproweb.com/download/Win64OpenSSL-3_4_0.exe
+- add envrionent variable OPENSSL_DIR  = " C:\Program Files\OpenSSL-Win64 "
+- add environment variable OPENSSL_LIB_DIR = " C:\Program Files\OpenSSL-Win64\lib\VC\x64\MD "
+- add environment variablee OPENSSL_STATIC = "true"
+- run "bash start-db.sh"
+- cd into "db-client" and run "cargo test"
